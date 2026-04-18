@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasnain Karimain</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- SCROLL PROGRESS BAR -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#home" class="logo">
+        Hasnain<span>Karimain</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about"    class="nav-link"        data-section="about">About</a></li>
+        <li><a href="#services" class="nav-link"        data-section="services">Services</a></li>
+        <li><a href="#gallery"  class="nav-link"        data-section="gallery">Gallery</a></li>
+        <li><a href="#contact"  class="nav-link"        data-section="contact">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- SECTION: HOME -->
+  <section id="home" class="section section-home">
+    <div class="section-content">
+      <p class="section-eyebrow">Welcome to Hasnain Karimain</p>
+      <h1>Design.<br>Build.<br>Launch.</h1>
+      <p class="section-sub">A modern creative studio crafting digital experiences that push boundaries and defy the ordinary.</p>
+      <a href="#about" class="btn-primary">Discover More</a>
+    </div>
+    <div class="hero-graphic">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+    </div>
+  </section>
+
+  <!-- SECTION: ABOUT -->
+  <section id="about" class="section section-about">
+    <div class="section-content">
+      <p class="section-eyebrow">Who We Are</p>
+      <h2>We Build the Future,<br>One Pixel at a Time.</h2>
+      <p>Hasnain Karimain is a team of passionate designers and developers obsessed with creating digital products that truly matter. From concept to code, we turn ideas into reality with precision and creativity.</p>
+      <div class="stats-row">
+        <div class="stat"><span>120+</span><p>Projects Done</p></div>
+        <div class="stat"><span>40+</span><p>Happy Clients</p></div>
+        <div class="stat"><span>5★</span><p>Average Rating</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: SERVICES -->
+  <section id="services" class="section section-services">
+    <div class="section-content">
+      <p class="section-eyebrow">What We Offer</p>
+      <h2>Our Services</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>Beautiful, intuitive interfaces built with user psychology in mind.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>High-performance websites using the latest modern technologies.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3>Mobile Apps</h3>
+          <p>Cross-platform apps that feel native on every device.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Performance Audit</h3>
+          <p>Speed & accessibility improvements for existing platforms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: GALLERY -->
+  <section id="gallery" class="section section-gallery">
+    <div class="section-content">
+      <p class="section-eyebrow">Our Work</p>
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item gi-1"><span>Brand Identity</span></div>
+        <div class="gallery-item gi-2"><span>Web Platform</span></div>
+        <div class="gallery-item gi-3"><span>Mobile UI</span></div>
+        <div class="gallery-item gi-4"><span>Dashboard</span></div>
+        <div class="gallery-item gi-5"><span>E-Commerce</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="section-content">
+      <p class="section-eyebrow">Get In Touch</p>
+      <h2>Let's Work Together</h2>
+      <p>Have a project in mind? We'd love to hear from you. Drop us a message and we'll get back within 24 hours.</p>
+      <div class="contact-form">
+        <input type="text"  placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Tell us about your project..." rows="5"></textarea>
+        <button class="btn-primary">Send Message →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 <strong>Hasnain Karimain</strong> | Built with &#10084; by Khadija</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
